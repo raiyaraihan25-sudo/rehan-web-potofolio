@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | M. Daffa Raihan Ikbaar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Daffa <span>| Portofolio</span></a>
+        <div class="menu-icon"><i class="fas fa-bars"></i></div>
+        <nav class="navbar">
+            <div class="nav-indicator"></div> 
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text reveal">
+            <p class="greeting">Halo, Saya</p>
+            <h1 class="name">Daffa Raihan Ikbaar</h1>
+            <p class="role">mahasiswa teknik sipil ITS</p>
+            <p class="description">Saya berfokus pada proyek teknik sipil yang berdampak, dengan menggabungkan pendekatan desain kreatif.</p>
+            <a href="#contact" class="btn-hubungi">Hubungi Saya</a>
+            <a href="https://drive.google.com/drive/folders/1hzlm5uNtODIh2ZokC4_A6BQOYJrKHsvp?usp=sharing" target="_blank" class="btn-hubungi">Unduh CV</a>
+            <a href="#projects" class="btn-hubungi">Lihat Proyek</a>
+        </div>
+        <div class="hero-img-container reveal">
+            <div class="blob-border"></div> 
+            <div class="purple-blob">
+                <img src="gambar/picture_profile.png" alt="Foto Daffa" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-left reveal">
+                <h2 class="about-title">ABOUT <span>ME</span></h2>
+                <p class="about-description">Saya adalah seorang mahasiswa aktif Teknik Infrastruktur Sipil angkatan 2022 di ITS Surabaya. Saya berfokus pada proyek teknik sipil yang berdampak, dengan menggabungkan pendekatan desain kreatif. Saya memiliki kemampuan komunikasi yang baik, mudah beradaptasi, mampu bekerja secara individu maupun tim, dan memiliki semangat kontribusi serta dedikasi yang tinggi.</p>
+            </div>
+            <div class="about-right reveal">
+                <div class="about-card">
+                    <h3>Personal Info</h3>
+                    <ul>
+                        <li><strong>Pendidikan</strong> <span>Diploma Teknik Infrastruktur Sipil, ITS</span></li>
+                        <li><strong>Email</strong> <span>raiya.raihan25@gmail.com</span></li>
+                        <li><strong>Domisili</strong> <span>Surabaya, Jawa Timur</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="heading-left reveal">Proyek & kegiatan <span>Saya</span></h2>
+        <div class="project-showcase reveal">
+            <div class="main-display" id="mainDisplayBox">
+                <img id="mainDisplayImage" src="gambar/project_1.png" alt="Main Project" class="main-project-img">
+                <h2 id="mainDisplayTitle" class="main-title">Main Picture</h2>
+                <p id="mainDisplaySub" class="main-sub">Pilih project di bawah</p>
+            </div>
+            
+            <div class="btn-detail-container">
+                <button class="btn-detail" id="btnDetailModal">Lihat selengkapnya</button>
+            </div>
+            
+            <div class="project-tabs">
+                <div class="tab-indicator-project" id="tabIndicatorProject"></div>
+                <button class="tab-btn active" data-index="0">Proyek 1</button>
+                <button class="tab-btn" data-index="1">Proyek 2</button>
+                <button class="tab-btn" data-index="2">Kepanitian 1</button>
+                <button class="tab-btn" data-index="3">kepanitian 2</button>
+                <button class="tab-btn" data-index="4">kepanitian 3</button>
+                <button class="tab-btn" data-index="5">kepanitian 4</button>
+                <button class="tab-btn" data-index="6">kepanitian 5</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="modal-left">
+                <button class="slider-btn prev" id="sliderPrev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-container">
+                    <img id="modalSliderImage" src="" alt="Slide Project" class="modal-slide-img">
+                </div>
+                <button class="slider-btn next" id="sliderNext"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="modal-right">
+                <h4 class="modal-title-sm">Tujuan</h4>
+                <p class="modal-text" id="modalTujuan">Deskripsi tujuan...</p>
+                <h4 class="modal-title-sm">Metode</h4>
+                <p class="modal-text" id="modalMetode">Deskripsi metode...</p>
+                <h4 class="modal-title-sm">Deskripsi</h4>
+                <p class="modal-text" id="modalDeskripsi">Deskripsi tujuan...</p>
+                <h4 class="modal-title-sm">Hasil</h4>
+                <p class="modal-text" id="modalHasil">Deskripsi hasil...</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="skills" class="skills">
+        <h2 class="heading reveal">My <span>Skills</span></h2>
+        
+        <div class="skills-wrapper">
+            <div class="skill-group">
+                <h3 class="skill-group-title reveal">Hard Skills</h3>
+                <div class="skills-container">
+                    <div class="skill-card reveal">
+                        <i class="fas fa-palette skill-icon icon-purple"></i>
+                        <p class="skill-text">Desain Visual <span>(Media Kreatif)</span></p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fas fa-drafting-compass skill-icon icon-orange"></i>
+                        <p class="skill-text">AutoCAD <span>(2D & 3D Drafting)</span></p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fas fa-map-marked-alt skill-icon icon-teal"></i>
+                        <p class="skill-text">ArcMap <span>(GIS Spatial Analysis)</span></p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="skill-group">
+                <h3 class="skill-group-title reveal">Soft Skills</h3>
+                <div class="skills-container">
+                    <div class="skill-card reveal">
+                        <i class="fas fa-sync-alt skill-icon icon-purple"></i>
+                        <p class="skill-text">Mudah Beradaptasi & <span>Suka Hal Baru</span></p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fas fa-comments skill-icon icon-orange"></i>
+                        <p class="skill-text">Komunikatif & <span>Mampu Bekerja dalam Tim</span></p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fas fa-shield-alt skill-icon icon-teal"></i>
+                        <p class="skill-text">Disiplin, Amanah & <span>Bertanggung Jawab</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-genz">
+        <div class="contact-container">
+            <div class="contact-left reveal">
+                <h2 class="contact-title">Mari <span>Berkolaborasi!</span> 🚀</h2>
+                <p class="contact-subtitle">Punya ide proyek menarik, tawaran pekerjaan, atau sekadar ingin menyapa? Jangan ragu untuk drop pesan di bawah ini!</p>
+                <a href="mailto:raiya.raihan25@gmail.com" class="btn-email">
+                    Say Hello <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
+
+            <div class="contact-right reveal">
+                <div class="social-bento">
+                    <a href="#" class="bento-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                        <i class="fas fa-arrow-right arrow"></i>
+                    </a>
+                    <a href="#" class="bento-item">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                        <i class="fas fa-arrow-right arrow"></i>
+                    </a>
+                    <a href="https://wa.me/6282233655054" target="_blank" class="bento-item wa-box">
+                        <div class="wa-content">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Chat on WhatsApp</span>
+                        </div>
+                        <i class="fas fa-arrow-right arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="marquee-container reveal">
+            <div class="marquee-text">
+                LET'S CONNECT • AVAILABLE FOR WORK • LET'S CONNECT • AVAILABLE FOR WORK • LET'S CONNECT • AVAILABLE FOR WORK • LET'S CONNECT • AVAILABLE FOR WORK •
+            </div>
+        </div>
+
+        <footer class="footer-genz">
+            <p>&copy; 2026 by Muhammad Daffa Raihan Ikbaar | All Rights Reserved.</p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
