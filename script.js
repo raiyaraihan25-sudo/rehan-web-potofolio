@@ -99,7 +99,7 @@ const projectsData = [
         ]
     },
     { id: 3,
-        mainTitle: "brrr.Makrab 2.0 DS43",
+        mainTitle: "Makrab 2.0 DS43",
         subTitle: "Staff Divisi Perlengkapan pada Makrab 2.0 DS43 Feed",
         Deskripsi:"Makrab 2.0 DS43 merupakan serangkaian acara internalisasi yang diadakan oleh DS43 yang bertujuan untuk membangun keakraban dan mempererat hubungan antar satu warga DS43 dengan warga DS43 yang lain",
         mainImage: "gambar/panitia_makrab_1.jpeg", 
