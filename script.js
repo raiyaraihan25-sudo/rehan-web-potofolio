@@ -133,7 +133,7 @@ const projectsData = [
         id: 7,
         mainTitle: "Geigi 2024",      
         subTitle: "Mentor",
-        Deskripsi:"Himpunan Mahasiswa Diploma Sipil (HMDS) merupakan suatu organisasi mahasiswa yang berada di Departemen Teknik Infrastruktur Sipil. Himpunan Mahasiswa Diploma Sipil juga merupakan wadah terbaik bagi mahasiswa Departemen Teknik Infrastruktur Sipil untuk mengembangkan softskill dan hardskill di bidang keprofesian.", 
+        Deskripsi:"Gerigi ITS (Generasi Integralistik Institut Teknologi Sepuluh Nopember) adalah acara orientasi mahasiswa baru tingkat institut yang diadakan tahunan untuk memperkenalkan lingkungan, budaya, dan kehidupan kampus di ITS. Acara ini bertujuan membangun semangat kebersamaan, persaudaraan, dan menanamkan nilai-nilai integralistik (menyeluruh/terpadu) di antara mahasiswa baru.", 
         mainImage: "gambar/geirgi_2024.jpeg",
         gallery: ["gambar/geirgi_2024.jpeg"]
     },
