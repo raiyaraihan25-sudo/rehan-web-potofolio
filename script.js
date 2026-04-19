@@ -66,65 +66,116 @@ window.addEventListener('resize', () => {
 const projectsData = [
     {
         id: 0,
-        mainTitle: "Rumah Pohon",       // <-- Tambahkan ini
+        mainTitle: "survey S.I.D",       // <-- Tambahkan ini
         subTitle: "Surveyor", 
-        Deskripsi:"",
-        tujuan: "Melakukan pengumpulan data lapangan untuk mendukung perencanaan proyek properti dan konstruksi.",
-        metode: "Terlibat dalam kegiatan proyek dan pekerjaan tim dan Mempelajari prosedur kerja dan standar teknis perusahaan",
-        hasil: "Memahami lingkungan kerja profesional berskala internasional dan Meningkatkan kemampuan teknis dan komunikasi",
+        Deskripsi:"Melaksanakan survey lapangan untuk mengidentifikasi kondisi lahan dan kebutuhan bahan pangan petani sebagai dasar penyaluran bantuan pemerintah.",
         mainImage: "gambar/surveyor.jpeg",
+        gallery: ["gambar/surveyor.jpeg","gambar/surveyor.jpeg"
+        ]
+    },
+
+    {
+        id: 1,
+        mainTitle: "survey Pertamina",       // <-- Tambahkan ini
+        subTitle: "Surveyor", 
+        Deskripsi:"Melaksanakan pengukuran topografi lapangan menggunakan alat survey (RTK) untuk mendapatkan data elevasi dan koordinat secara akurat.",
+        mainImage: "gambar/surveyor_1.jpeg",
         gallery: ["gambar/surveyor_1.jpeg","gambar/surveyor.jpeg"
         ]
     },
+
     {
-        id: 1,
+        id: 2,
         mainTitle: "Nippon Koei Co., LTD ",      
         subTitle: "Magang",
-        Deskripsi:"",
-        tujuan: "Mendapatkan pengalaman kerja profesional di bidang teknik serta memahami standar kerja perusahaan internasional.",
-        metode: "Terlibat dalam kegiatan proyek dan pekerjaan tim dan Mempelajari prosedur kerja dan standar teknis perusahaan",
-        hasil: "Memahami lingkungan kerja profesional berskala internasional dan Meningkatkan kemampuan teknis dan komunikasi", 
+        Deskripsi:"Nippon Koei, Konsultan Teknik Internasional No. 1 di Jepang, mendirikan Kantor Perwakilan Jakarta pada tahun 1967. Kami dengan cepat membangun reputasi untuk pekerjaan berkualitas tinggi dalam perencanaan, desain, dan layanan teknik.",
         mainImage: "gambar/magang nippon.jpeg", 
         gallery: ["gambar/magang nippon.jpeg"]
     },
+
     {
-        id: 2,
-        mainTitle: "Makrab 1.0 DTIS'2022", 
-        subTitle: "Staff Divisi Dokum pada Makrab DTIS'22",
-        Deskripsi:"Makrab DTIS'22 merupakan serangkaian acara yang diadakan oleh mahasiswa Diploma Sipil tahun angkatan 2022 yang bertujuan untukmembangun keakraban dan mempererat hubungan antar satu mahasiswa dengan mahasiswa lain.",
-        mainImage: "gambar/panitia_makrab.jpeg", // Atau gambar/project_1.jfif sesuai ketersediaan file Anda
-        gallery: [
-            "gambar/panitia_makrab.jpeg",
-            "gambar/panitia_makrab.jpeg"
-        ]
+        id: 3,
+        mainTitle: "CV. Dunia Grafindo",      
+        subTitle: "Magang",
+        Deskripsi:"CV. dunia grafindo ialah perusahaan yang berjalan dibidang industri percetakan yang berada di surabaya, banyak sekolah-sekolah yangmeminta untuk mencetak di tempat ini mulai dari mencetak kalender, buku majalah banner, poster, cetak mug pada gelas maupun padabotol dan juga menyablon pada kaos.",
+        mainImage: "gambar/magang smk.jpeg", 
+        gallery: ["gambar/magang smk.jpeg"]
     },
-    { id: 3,
-        mainTitle: "Makrab 2.0 DS43",
-        subTitle: "Staff Divisi Perlengkapan pada Makrab 2.0 DS43 Feed",
-        Deskripsi:"Makrab 2.0 DS43 merupakan serangkaian acara internalisasi yang diadakan oleh DS43 yang bertujuan untuk membangun keakraban dan mempererat hubungan antar satu warga DS43 dengan warga DS43 yang lain",
-        mainImage: "gambar/panitia_makrab_1.jpeg", 
-        gallery: [
-            "gambar/panitia_makrab_1.jpeg"
-        ]
-        },
-    { id: 4,
-        mainTitle:"VCC 2023",
-        subTitle: "Staff Divisi PDD pada VCC 2023",
-        Deskripsi:"Vocation Champions Cup (VCC) merupakan serangkaian perlombaan yang diadakan oleh Fakultas Vokasi yang berada di ITS, Kegiatan ini merupakan tempat untuk para mahasiswa fakultas vokasi untuk menunjukkan kemampuan dan skillsnya di bidang Olahraga.", 
-        mainImage: "gambar/dokum_vcc.jpeg", 
-        gallery: ["gambar/dokum_vcc.jpeg"] },
-    { id: 5,
-        mainTitle: "Gerigi 2024", 
-        subTitle: "Mentor gerigi 2024",
-        Deskripsi:"Generasi Integralistik GERIGI ITS merupakan wadah yang menyatukan seluruh mahasiswa baru sebagai bentuk orientasi mahasiswa baru tingkat institut yang bertujuan untuk memperkenalkan mahasiswa baru terhadap kehidupan kampus di ITS Surabaya. Sebagai momen yang mempersatukan seluruh mahasiswa ITS, GERIGI berperan dalam menanamkan rasa persatuan antar mahasiswa ITS agar dapat bersatu dalam satu birunya ITS.",
-        mainImage: "gambar/geirgi_2024.jpeg", 
-        gallery: ["gambar/geirgi_2024.jpeg"] },
-    { id: 6,
-        mainTitle: "KJI KGBI 2024", 
-        subTitle: "Staff pembantu",
-        Deskripsi:"Kompetisi Jembatan Indonesia (KJI) merupakan wadah pembinaan dan pengembangan kompetensimahasiswa di bidang teknik sipil dan rekayasa struktur, khususnya dalam perancangan dan konstruksijembatan. Kompetisi ini sebelumnya dikenal sebagai Kompetisi Jembatan Baja Indonesia (KJBI), yang telahdiselenggarakan secara berkelanjutan selama bertahun-tahun dan menjadi salah satu ajang prestisiusdalam pengembangan talenta rekayasa nasional.",
-        mainImage: "gambar/kji kbgi.jpeg", 
-        gallery: ["gambar/kji kbgi.jpeg"] }
+    {
+        id: 4,
+        mainTitle: "Jamaah Masjid Al-Azhar (JMAA)",      
+        subTitle: "Kadiv media kreatif pada idul adha 2023",
+        Deskripsi:"Jamaah Masjid Al-Azhar (JMAA) adalah salah suatu organisasi kerohanian islam mahasasiwa yang berada di Departemen TeknikInfrastruktur Sipil . JMAA sendiri merupakan wadah bagi para warga Kampus ITS Manyar untuk memperdalam agama islam, serta jugauntuk tempat para mahasiswa mengembangkan softskill dan hardskill.", 
+        mainImage: "gambar/jmma.jpeg",
+        gallery: ["gambar/jmma.jpeg"]
+    },
+
+    {
+        id: 5,
+        mainTitle: "Jamaah Himpunan Mahasiswa Diploma Sipil",      
+        subTitle: "Staff Media Informasi Kabinet Ekplorasi Perubahan",
+        Deskripsi:"Himpunan Mahasiswa Diploma Sipil (HMDS) merupakan suatu organisasi mahasiswa yang berada di Departemen Teknik Infrastruktur Sipil. Himpunan Mahasiswa Diploma Sipil juga merupakan wadah terbaik bagi mahasiswa Departemen Teknik Infrastruktur Sipil untuk mengembangkan softskill dan hardskill di bidang keprofesian.", 
+        mainImage: "gambar/himpunan.jpeg",
+        gallery: ["gambar/himpunan.jpeg"]
+    },
+
+    {
+        id: 6,
+        mainTitle: "D'Village 12 & 13th Edition",      
+        subTitle: "Staff Media Informasi Kabinet Ekplorasi Perubahan",
+        Deskripsi:"D'Village 13th Edition merupakan serangkaian acara tahunan yang diadakan oleh HMDS (Himpunan Mahasiswa Diploma Sipil) yang bertujuan untuk mengembangkan dan meningkatkan serta memberikan kontribusi pada dunia ketekniksipilan untuk generasi muda dalam skala nasional", 
+        mainImage: "gambar/dvillage.jpeg",
+        gallery: ["gambar/dvillage.jpeg"]
+    },
+
+
+    {
+        id: 7,
+        mainTitle: "Geigi 2024",      
+        subTitle: "Mentor",
+        Deskripsi:"Himpunan Mahasiswa Diploma Sipil (HMDS) merupakan suatu organisasi mahasiswa yang berada di Departemen Teknik Infrastruktur Sipil. Himpunan Mahasiswa Diploma Sipil juga merupakan wadah terbaik bagi mahasiswa Departemen Teknik Infrastruktur Sipil untuk mengembangkan softskill dan hardskill di bidang keprofesian.", 
+        mainImage: "gambar/geirgi_2024.jpeg",
+        gallery: ["gambar/geirgi_2024.jpeg"]
+    },
+
+    // {
+    //     id: 3,
+    //     mainTitle: "Makrab 1.0 DTIS'2022", 
+    //     subTitle: "Staff Divisi Dokum pada Makrab DTIS'22",
+    //     Deskripsi:"Makrab DTIS'22 merupakan serangkaian acara yang diadakan oleh mahasiswa Diploma Sipil tahun angkatan 2022 yang bertujuan untukmembangun keakraban dan mempererat hubungan antar satu mahasiswa dengan mahasiswa lain.",
+    //     mainImage: "gambar/panitia_makrab.jpeg", // Atau gambar/project_1.jfif sesuai ketersediaan file Anda
+    //     gallery: [
+    //         "gambar/panitia_makrab.jpeg",
+    //         "gambar/panitia_makrab.jpeg"
+    //     ]
+    // },
+    // { id: 4,
+    //     mainTitle: "Makrab 2.0 DS43",
+    //     subTitle: "Staff Divisi Perlengkapan pada Makrab 2.0 DS43 Feed",
+    //     Deskripsi:"Makrab 2.0 DS43 merupakan serangkaian acara internalisasi yang diadakan oleh DS43 yang bertujuan untuk membangun keakraban dan mempererat hubungan antar satu warga DS43 dengan warga DS43 yang lain",
+    //     mainImage: "gambar/panitia_makrab_1.jpeg", 
+    //     gallery: [
+    //         "gambar/panitia_makrab_1.jpeg"
+    //     ]
+    //     },
+    // { id: 5,
+    //     mainTitle:"VCC 2023",
+    //     subTitle: "Staff Divisi PDD pada VCC 2023",
+    //     Deskripsi:"Vocation Champions Cup (VCC) merupakan serangkaian perlombaan yang diadakan oleh Fakultas Vokasi yang berada di ITS, Kegiatan ini merupakan tempat untuk para mahasiswa fakultas vokasi untuk menunjukkan kemampuan dan skillsnya di bidang Olahraga.", 
+    //     mainImage: "gambar/dokum_vcc.jpeg", 
+    //     gallery: ["gambar/dokum_vcc.jpeg"] },
+    // { id: 6,
+    //     mainTitle: "Gerigi 2024", 
+    //     subTitle: "Mentor gerigi 2024",
+    //     Deskripsi:"Generasi Integralistik GERIGI ITS merupakan wadah yang menyatukan seluruh mahasiswa baru sebagai bentuk orientasi mahasiswa baru tingkat institut yang bertujuan untuk memperkenalkan mahasiswa baru terhadap kehidupan kampus di ITS Surabaya. Sebagai momen yang mempersatukan seluruh mahasiswa ITS, GERIGI berperan dalam menanamkan rasa persatuan antar mahasiswa ITS agar dapat bersatu dalam satu birunya ITS.",
+    //     mainImage: "gambar/geirgi_2024.jpeg", 
+    //     gallery: ["gambar/geirgi_2024.jpeg"] },
+    // { id: 7,
+    //     mainTitle: "KJI KGBI 2024", 
+    //     subTitle: "Staff pembantu",
+    //     Deskripsi:"Kompetisi Jembatan Indonesia (KJI) merupakan wadah pembinaan dan pengembangan kompetensimahasiswa di bidang teknik sipil dan rekayasa struktur, khususnya dalam perancangan dan konstruksijembatan. Kompetisi ini sebelumnya dikenal sebagai Kompetisi Jembatan Baja Indonesia (KJBI), yang telahdiselenggarakan secara berkelanjutan selama bertahun-tahun dan menjadi salah satu ajang prestisiusdalam pengembangan talenta rekayasa nasional.",
+    //     mainImage: "gambar/kji kbgi.jpeg", 
+    //     gallery: ["gambar/kji kbgi.jpeg"] }
 ];
 
 const tabBtns = document.querySelectorAll('.tab-btn');
