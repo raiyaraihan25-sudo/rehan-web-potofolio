@@ -131,11 +131,11 @@ const projectsData = [
 
     {
         id: 7,
-        mainTitle: "Geigi 2024",      
-        subTitle: "Mentor",
-        Deskripsi:"Gerigi ITS (Generasi Integralistik Institut Teknologi Sepuluh Nopember) adalah acara orientasi mahasiswa baru tingkat institut yang diadakan tahunan untuk memperkenalkan lingkungan, budaya, dan kehidupan kampus di ITS. Acara ini bertujuan membangun semangat kebersamaan, persaudaraan, dan menanamkan nilai-nilai integralistik (menyeluruh/terpadu) di antara mahasiswa baru.", 
-        mainImage: "gambar/geirgi_2024.jpeg",
-        gallery: ["gambar/geirgi_2024.jpeg"]
+        mainTitle: "KJI KGBI 2024",      
+        subTitle: "Staff Pembantu",
+        Deskripsi:"Kompetisi Jembatan Indonesia (KJI) merupakan wadah pembinaan dan pengembangan kompetensimahasiswa di bidang teknik sipil dan rekayasa struktur, khususnya dalam perancangan dan konstruksijembatan. Kompetisi ini sebelumnya dikenal sebagai Kompetisi Jembatan Baja Indonesia (KJBI), yang telahdiselenggarakan secara berkelanjutan selama bertahun-tahun dan menjadi salah satu ajang prestisiusdalam pengembangan talenta rekayasa nasional.", 
+        mainImage: "gambar/kji kbgi.jpeg",
+        gallery: ["gambar/kji kbgi.jpeg"]
     },
 
     // {
